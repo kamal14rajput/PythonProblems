@@ -1,4 +1,4 @@
-N = int(input("Enter the Nth harmonic number")) #nth harmonic number
+N = int(input("Enter the Nth harmonic number"))  #nth harmonic number
 
 harmonic_number = 0
 if N > 0:
