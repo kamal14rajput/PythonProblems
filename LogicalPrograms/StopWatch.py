@@ -1,0 +1,16 @@
+from time import time
+
+#stopwatch started
+start = input("Enter 'Y' to start the stopwatch:")
+if start == "y" or start == "Y":
+    t1 = time()
+    #stopwatch ended
+    end = input("Enter 'N' to stop the stopwatch:")
+    if end == "n" or end == 'N':
+        t2 = time()
+    else:
+        print("Invalid input!")
+else:
+    print("Invalid input")
+elapsed = t2 - t1
+print('Elapsed time is %f seconds.' % elapsed)
